@@ -1,0 +1,86 @@
+/* Gobal */
+
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.main {
+	padding-top: 69px;
+	opacity: 0.9;
+	width: 1200px;
+	margin: auto;
+}
+
+.flex-container {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Header Bar */
+
+header {
+	height: 69px;
+	z-index: 1;
+	position: fixed;
+
+}
+
+
+
+/* Section 1 - Our Mission */
+
+#our-mission {
+	height: 700px;
+	width: 1200px;
+	background-image: url(../../resources/images/img-mission-background.jpg);
+	padding-top: 70px;
+}
+
+#mission {
+	background-color: black;
+	margin: auto;
+	width: 100%;
+}
+
+
+
+/* Section 2 - Tea of the Month */
+
+#tea-of-the-month {
+	height: 700px;
+	width: 1000px;
+	background-color: darkgrey;
+}
+
+.tea-photos {
+	height: 200px;
+	width: 300px;
+}
+
+.tea-photos-desc {
+	width: 300px;
+	margin-top: 10px;
+}
+
+
+/* Section 3 - Locations */
+
+#locations {
+	height: 500px;
+	width: 1200px;
+	background-image: url(../../resources/images/img-locations-background.jpg);
+
+}
+
+/* Footer */
+
+p {
+	text-align: left;
+	margin-left: 20px;
+}
