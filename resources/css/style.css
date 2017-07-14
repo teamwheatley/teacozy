@@ -7,6 +7,7 @@ body {
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
+	margin: 0;
 }
 
 .main {
@@ -22,22 +23,40 @@ body {
     flex-wrap: wrap;
 }
 
+div {
+	display: block;
+}
+
+
 /* Header Bar */
 
 header {
 	height: 69px;
 	z-index: 1;
 	position: fixed;
+	margin: auto;
+	width: 100%;
+	border-bottom: 1px sold seashell;
+	background-color: black;
+	align-items: center;
 
 }
 
+nav {
+	text-align: right;
+	flex-grow: 1;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
 
 
 /* Section 1 - Our Mission */
 
 #our-mission {
 	height: 700px;
-	width: 1200px;
 	background-image: url(../../resources/images/img-mission-background.jpg);
 	padding-top: 70px;
 }
@@ -45,7 +64,7 @@ header {
 #mission {
 	background-color: black;
 	margin: auto;
-	width: 100%;
+	width: 1200px;
 }
 
 
@@ -55,17 +74,28 @@ header {
 #tea-of-the-month {
 	height: 700px;
 	width: 1000px;
-	background-color: darkgrey;
+	background-color: black;
+	margin: auto;
+	padding-top: 70px;
 }
 
 .tea-photos {
+	padding: 5px;
+}
+
+.tea-photos img {
+	display: block;
+	margin: 10px;
 	height: 200px;
 	width: 300px;
 }
 
-.tea-photos-desc {
+.tea-photos span {
 	width: 300px;
-	margin-top: 10px;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
 }
 
 
